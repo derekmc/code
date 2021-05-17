@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <item>
+    <title> Vim is Scriptable </title>
+    <link> ./20210517-vim-scriptable.html </link>
+    <description> Vim is Scriptable </description>
+  </item>
+
+</channel>
+</rss>

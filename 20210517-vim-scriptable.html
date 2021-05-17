@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <title> Code </title>
+    <link rel="stylesheet" href="./static/main.css">
+  </head>
+  <body>
+
+<h1 id="vim-is-scriptable">Vim is Scriptable</h1>
+<h3 id="qq-more-literally">qq more, literally</h3>
+
+<p>I have made an honest effort to start using other text editors for coding and other projects,
+but I honestly can&apos;t get myself to stick with it and there&apos;s a glaring reason why.</p>
+
+<p>Vim is the most scriptable text editor, and scripting is a powerful tool for working
+with text, especially when you can visually watch it happen.</p>
+
+<h2 id="the-quot-record-command">The &quot;Record command</h2>
+
+<p>If you open up vim and type the following</p>
+
+<pre><code>  :help record
+</code></pre>
+
+<p>It will pull up the help entry on &quot;record&quot;.  This commands allows you to save a sequence of actions.
+Now, other text editors may have macros, but it&apos;s generally pretty complicated, and you have to
+learn a new system for transforming the text. Vim has been around forever, and</p>
+
+<p>In vim, every action is already a command.</p>
+
+<p>Initially it may seem like a downside, that you have to use commands to do everything, to move
+between words, to cut and paste text, to even start typing, but because everything is a command
+with the keyboard, it makes it so those commands can be recorded into a macro at any time.  You
+don&apos;t even have to get complicated, if you know &apos;0&apos; for the start of line &apos;$&apos; for the end of line,
+&apos;w&apos; for next word, or &apos;W&apos; for next &quot;full word&quot;, plus the basic &quot;hjkl&quot;, then you can get started.</p>
+
+<p>Simply press &apos;qq&apos; and then start executing the sequence.  When you are done, press q again.
+Now you can press &apos;@q&apos; to replay the sequence.  After replaying it once, you can simply
+press a really quick &apos;@@&apos;.</p>
+
+<p>My most common use case for this, is to combine it with the forward slash search &apos;/pattern&apos;
+to do more complicated or nuanced line substitutions.  You can adjust indentation, change
+line endings, all sorts of things, and do them one at a time.  It&apos;s extremely flexible and
+useful.</p>
+
+<p>This one command, despite all of the great things in vim, is the reason I use vim.  It&apos;s not
+available anywhere else, because well, other text editors don&apos;t have command mode, and
+use the mouse, so it&apos;s just not possible.</p>
+
+<h2 id="i-still-use-the-mouse-in-vim-and-gvim">I still use the mouse in vim and gvim</h2>
+
+<p>Mice are great. As a minimalist, I wanted to migrate to another text editor, because vim
+isn&apos;t really accessible to most people, even though I know it subconsciously at this point,
+there&apos;s an argument to use tools that other people can use.  I think mice are a great tool.</p>
+
+<p>You can use the mouse in many vim builds, at least for scrolling.  Gvim is nice, because
+you can often drag and drop files from a file explorer to open them.  Graphical
+applications, imo, are simply a better way to browse filesystems.</p>
+
+<p>But for text, scripting, and specifically macros, are king, and vim makes that easy in a way
+no text editor can.</p>
+  <br/>
+  <!-- <a href="./index.html"> Home </a> -->
+  <a style="display: block; font-size: 110%; padding: 15px 25px; margin-left: -25px; width: 100%; background: white; color: black; border-top: 1px solid black; text-align: center;" href="./index.html">
+  Index   </a>
+  </body>
+</html>
